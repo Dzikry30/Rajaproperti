@@ -133,106 +133,112 @@
         </div>
 
         <!-- Grid -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-        <!-- Card 1 -->
-        <div onclick="toggleDetail(this)" class="card-hover relative group bg-white border rounded-xl shadow-md p-6 transition hover:shadow-lg cursor-pointer overflow-hidden" data-aos="fade-up">
-            <img src="dokumen/TANPA-BANK-150x150 (1).jpg" alt="Tanpa KPR Bank" class="h-[150px] w-[150px] object-cover mb-4 rounded-full mx-auto z-10 relative">
-            <h3 class="text-xl font-semibold text-center text-gray-900 z-10 relative">Tanpa KPR Bank</h3>
-            <p class="text-center text-sm text-gray-500 z-10 relative">Klik untuk lihat penjelasan</p>
-
-            <div class="hover-card absolute inset-0 bg-white/90 backdrop-blur-sm p-4 rounded-xl hidden group-hover:flex items-center justify-center text-center text-sm text-gray-700 z-20 transition-all duration-300">
-            <p>Kami tidak bekerja sama dalam hal pembiayaan proyek maupun penjualan kepada bank, karena ada hal yang tidak sesuai syariah.</p>
+        <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+            <!-- Card 1 -->
+            <div onclick="toggleDetail(this)" class="card-hover relative group bg-white border rounded-xl shadow-md p-6 transition hover:shadow-lg cursor-pointer overflow-hidden" data-aos="fade-up">
+                <img src="dokumen/TANPA-BANK-150x150 (1).jpg" alt="Tanpa KPR Bank" class="h-[120px] w-[120px] sm:h-[150px] sm:w-[150px] object-cover mb-4 rounded-full mx-auto z-10 relative">
+                <h3 class="text-lg sm:text-xl font-semibold text-center text-gray-900 z-10 relative">Tanpa KPR Bank</h3>
+                <p class="text-center text-sm sm:text-base text-gray-500 z-10 relative">Klik untuk lihat penjelasan</p>
+        
+                <div class="hover-card absolute inset-0 bg-white/90 backdrop-blur-sm p-4 rounded-xl hidden group-hover:flex items-center justify-center text-center text-sm text-gray-700 z-20 transition-all duration-300">
+                    <p>Kami tidak bekerja sama dalam hal pembiayaan proyek maupun penjualan kepada bank, karena ada hal yang tidak sesuai syariah.</p>
+                </div>
+                <div class="detail absolute inset-0 bg-white p-4 rounded-xl hidden opacity-0 max-h-0 z-30 overflow-auto transition-all duration-300">
+                    <p>Kami tidak bekerja sama dalam hal pembiayaan proyek maupun penjualan kepada bank, karena ada hal yang tidak sesuai syariah.</p>
+                </div>
             </div>
-            <div class="detail absolute inset-0 bg-white p-4 rounded-xl hidden opacity-0 max-h-0 z-30 overflow-auto transition-all duration-300">
-            <p>Kami tidak bekerja sama dalam hal pembiayaan proyek maupun penjualan kepada bank, karena ada hal yang tidak sesuai syariah.</p>
-            </div>
-        </div>
-
-        <!-- Card 2 -->
-        <div onclick="toggleDetail(this)" class="card-hover relative group bg-white border rounded-xl shadow-md p-6 transition hover:shadow-lg cursor-pointer overflow-hidden" data-aos="fade-up">
-            <img src="dokumen/TANPA-RIBA-150x150.jpg" alt="Tanpa Riba" class="h-[150px] w-[150px] object-cover mb-4 rounded-full mx-auto z-10 relative">
-            <h3 class="text-xl font-semibold text-center text-gray-900 z-10 relative">Tanpa Riba</h3>
-            <p class="text-center text-sm text-gray-500 z-10 relative">Klik untuk lihat penjelasan</p>
-
-            <div class="hover-card absolute inset-0 bg-white/90 backdrop-blur-sm p-4 rounded-xl hidden group-hover:flex items-center justify-center text-center text-sm text-gray-700 z-20 transition-all duration-300">
-            <p>Riba adalah tambahan atau manfaat dari hutang. Kami menetapkan nilai tetap dalam akad di awal tanpa tambahan tersembunyi.</p>
-            </div>
-            <div class="detail absolute inset-0 bg-white p-4 rounded-xl hidden opacity-0 max-h-0 z-30 overflow-auto transition-all duration-300">
-            <p>Riba adalah tambahan atau manfaat dari hutang. Kami menetapkan nilai tetap dalam akad di awal tanpa tambahan tersembunyi.</p>
-            </div>
-        </div>
-
-        <!-- Card 3 -->
-        <div onclick="toggleDetail(this)" class="card-hover relative group bg-white border rounded-xl shadow-md p-6 transition hover:shadow-lg cursor-pointer overflow-hidden" data-aos="fade-up">
-            <img src="dokumen/TANPA-DENDA-150x150.jpg" alt="Tanpa Denda" class="h-[150px] w-[150px] object-cover mb-4 rounded-full mx-auto z-10 relative">
-            <h3 class="text-xl font-semibold text-center text-gray-900 z-10 relative">Tanpa Denda</h3>
-            <p class="text-center text-sm text-gray-500 z-10 relative">Klik untuk lihat penjelasan</p>
-
-            <div class="hover-card absolute inset-0 bg-white/90 backdrop-blur-sm p-4 rounded-xl hidden group-hover:flex items-center justify-center text-center text-sm text-gray-700 z-20 transition-all duration-300">
-            <p>Kami tidak menerapkan denda karena termasuk riba. Namun ada solusi bagi pembeli yang telat bayar tanpa merugikan pihak manapun.</p>
-            </div>
-            <div class="detail absolute inset-0 bg-white p-4 rounded-xl hidden opacity-0 max-h-0 z-30 overflow-auto transition-all duration-300">
-            <p>Kami tidak menerapkan denda karena termasuk riba. Namun ada solusi bagi pembeli yang telat bayar tanpa merugikan pihak manapun.</p>
+        
+            <!-- Card 2 -->
+            <div onclick="toggleDetail(this)" class="card-hover relative group bg-white border rounded-xl shadow-md p-6 transition hover:shadow-lg cursor-pointer overflow-hidden" data-aos="fade-up">
+                <img src="dokumen/TANPA-RIBA-150x150.jpg" alt="Tanpa Riba" class="h-[120px] w-[120px] sm:h-[150px] sm:w-[150px] object-cover mb-4 rounded-full mx-auto z-10 relative">
+                <h3 class="text-lg sm:text-xl font-semibold text-center text-gray-900 z-10 relative">Tanpa Riba</h3>
+                <p class="text-center text-sm sm:text-base text-gray-500 z-10 relative">Klik untuk lihat penjelasan</p>
+        
+                <div class="hover-card absolute inset-0 bg-white/90 backdrop-blur-sm p-4 rounded-xl hidden group-hover:flex items-center justify-center text-center text-sm text-gray-700 z-20 transition-all duration-300">
+                    <p>Riba adalah tambahan atau manfaat dari hutang. Kami menetapkan nilai tetap dalam akad di awal tanpa tambahan tersembunyi.</p>
+                </div>
+                <div class="detail absolute inset-0 bg-white p-4 rounded-xl hidden opacity-0 max-h-0 z-30 overflow-auto transition-all duration-300">
+                    <p>Riba adalah tambahan atau manfaat dari hutang. Kami menetapkan nilai tetap dalam akad di awal tanpa tambahan tersembunyi.</p>
+                </div>
             </div>
         </div>
-
-        <!-- Card 4 -->
-        <div onclick="toggleDetail(this)" class="card-hover relative group bg-white border rounded-xl shadow-md p-6 transition hover:shadow-lg cursor-pointer overflow-hidden" data-aos="fade-up">
-            <img src="dokumen/rumah.png" alt="Tanpa Sita" class="h-[150px] w-[150px] object-cover mb-4 rounded-full mx-auto z-10 relative">
-            <h3 class="text-xl font-semibold text-center text-gray-900 z-10 relative">Tanpa Sita</h3>
-            <p class="text-center text-sm text-gray-500 z-10 relative">Klik untuk lihat penjelasan</p>
-
-            <div class="hover-card absolute inset-0 bg-white/90 backdrop-blur-sm p-4 rounded-xl hidden group-hover:flex items-center justify-center text-center text-sm text-gray-700 z-20 transition-all duration-300">
-            <p>Rumah tetap dihuni, bisa dijual oleh penghuni atau developer. Hasil penjualan menjadi hak pembeli, bukan disita.</p>
+        
+          <!-- Grid -->
+        <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+            <!-- Card 3 -->
+            <div onclick="toggleDetail(this)" class="card-hover relative group bg-white border rounded-xl shadow-md p-6 transition hover:shadow-lg cursor-pointer overflow-hidden" data-aos="fade-up">
+                <img src="dokumen/TANPA-DENDA-150x150.jpg" alt="Tanpa Denda" class="h-[120px] w-[120px] sm:h-[150px] sm:w-[150px] object-cover mb-4 rounded-full mx-auto z-10 relative">
+                <h3 class="text-lg sm:text-xl font-semibold text-center text-gray-900 z-10 relative">Tanpa Denda</h3>
+                <p class="text-center text-sm sm:text-base text-gray-500 z-10 relative">Klik untuk lihat penjelasan</p>
+        
+                <div class="hover-card absolute inset-0 bg-white/90 backdrop-blur-sm p-4 rounded-xl hidden group-hover:flex items-center justify-center text-center text-sm text-gray-700 z-20 transition-all duration-300">
+                    <p>Kami tidak menerapkan denda karena termasuk riba. Namun ada solusi bagi pembeli yang telat bayar tanpa merugikan pihak manapun.</p>
+                </div>
+                <div class="detail absolute inset-0 bg-white p-4 rounded-xl hidden opacity-0 max-h-0 z-30 overflow-auto transition-all duration-300">
+                    <p>Kami tidak menerapkan denda karena termasuk riba. Namun ada solusi bagi pembeli yang telat bayar tanpa merugikan pihak manapun.</p>
+                </div>
             </div>
-            <div class="detail absolute inset-0 bg-white p-4 rounded-xl hidden opacity-0 max-h-0 z-30 overflow-auto transition-all duration-300">
-            <p>Rumah tetap dihuni, bisa dijual oleh penghuni atau developer. Hasil penjualan menjadi hak pembeli, bukan disita.</p>
-            </div>
-        </div>
-
-        <!-- Card 5 -->
-        <div onclick="toggleDetail(this)" class="card-hover relative group bg-white border rounded-xl shadow-md p-6 transition hover:shadow-lg cursor-pointer overflow-hidden" data-aos="fade-up">
-            <img src="dokumen/TANPA-BANK-150x150.jpg" alt="Tanpa BI Checking" class="h-[150px] w-[150px] object-cover mb-4 rounded-full mx-auto z-10 relative">
-            <h3 class="text-xl font-semibold text-center text-gray-900 z-10 relative">Tanpa BI Checking</h3>
-            <p class="text-center text-sm text-gray-500 z-10 relative">Klik untuk lihat penjelasan</p>
-
-            <div class="hover-card absolute inset-0 bg-white/90 backdrop-blur-sm p-4 rounded-xl hidden group-hover:flex items-center justify-center text-center text-sm text-gray-700 z-20 transition-all duration-300">
-            <p>Kami tidak menggunakan BI Checking. Semua profesi (formal atau informal) bisa memiliki rumah tanpa hambatan administratif.</p>
-            </div>
-            <div class="detail absolute inset-0 bg-white p-4 rounded-xl hidden opacity-0 max-h-0 z-30 overflow-auto transition-all duration-300">
-            <p>Kami tidak menggunakan BI Checking. Semua profesi (formal atau informal) bisa memiliki rumah tanpa hambatan administratif.</p>
-            </div>
-        </div>
-
-        <!-- Card 6 -->
-        <div onclick="toggleDetail(this)" class="card-hover relative group bg-white border rounded-xl shadow-md p-6 transition hover:shadow-lg cursor-pointer overflow-hidden" data-aos="fade-up">
-            <img src="dokumen/TANPA-ASURANSI-1-150x150.jpg" alt="Tanpa Asuransi" class="h-[150px] w-[150px] object-cover mb-4 rounded-full mx-auto z-10 relative">
-            <h3 class="text-xl font-semibold text-center text-gray-900 z-10 relative">Tanpa Asuransi</h3>
-            <p class="text-center text-sm text-gray-500 z-10 relative">Klik untuk lihat penjelasan</p>
-
-            <div class="hover-card absolute inset-0 bg-white/90 backdrop-blur-sm p-4 rounded-xl hidden group-hover:flex items-center justify-center text-center text-sm text-gray-700 z-20 transition-all duration-300">
-            <p>Asuransi dalam Islam tergolong gharar (ketidakjelasan) dan maysir (judi). Kami tidak mengikutkan asuransi dalam akad jual beli.</p>
-            </div>
-            <div class="detail absolute inset-0 bg-white p-4 rounded-xl hidden opacity-0 max-h-0 z-30 overflow-auto transition-all duration-300">
-            <p>Asuransi dalam Islam tergolong gharar (ketidakjelasan) dan maysir (judi). Kami tidak mengikutkan asuransi dalam akad jual beli.</p>
+        
+            <!-- Card 4 -->
+            <div onclick="toggleDetail(this)" class="card-hover relative group bg-white border rounded-xl shadow-md p-6 transition hover:shadow-lg cursor-pointer overflow-hidden" data-aos="fade-up">
+                <img src="dokumen/rumah.png" alt="Tanpa Sita" class="h-[120px] w-[120px] sm:h-[150px] sm:w-[150px] object-cover mb-4 rounded-full mx-auto z-10 relative">
+                <h3 class="text-lg sm:text-xl font-semibold text-center text-gray-900 z-10 relative">Tanpa Sita</h3>
+                <p class="text-center text-sm sm:text-base text-gray-500 z-10 relative">Klik untuk lihat penjelasan</p>
+        
+                <div class="hover-card absolute inset-0 bg-white/90 backdrop-blur-sm p-4 rounded-xl hidden group-hover:flex items-center justify-center text-center text-sm text-gray-700 z-20 transition-all duration-300">
+                    <p>Rumah tetap dihuni, bisa dijual oleh penghuni atau developer. Hasil penjualan menjadi hak pembeli, bukan disita.</p>
+                </div>
+                <div class="detail absolute inset-0 bg-white p-4 rounded-xl hidden opacity-0 max-h-0 z-30 overflow-auto transition-all duration-300">
+                    <p>Rumah tetap dihuni, bisa dijual oleh penghuni atau developer. Hasil penjualan menjadi hak pembeli, bukan disita.</p>
+                </div>
             </div>
         </div>
-
-        <!-- Card 7 -->
-        <div onclick="toggleDetail(this)" class="card-hover relative group bg-white border rounded-xl shadow-md p-6 transition hover:shadow-lg cursor-pointer overflow-hidden" data-aos="fade-up">
-            <img src="dokumen/TANPA-GHOROR-150x150.jpg" alt="Tanpa Akad Bathil" class="h-[150px] w-[150px] object-cover mb-4 rounded-full mx-auto z-10 relative">
-            <h3 class="text-xl font-semibold text-center text-gray-900 z-10 relative">Tanpa Akad Bathil</h3>
-            <p class="text-center text-sm text-gray-500 z-10 relative">Klik untuk lihat penjelasan</p>
-
-            <div class="hover-card absolute inset-0 bg-white/90 backdrop-blur-sm p-4 rounded-xl hidden group-hover:flex items-center justify-center text-center text-sm text-gray-700 z-20 transition-all duration-300">
-            <p>Akad yang tidak sesuai syariah tidak sah dan batal. Kami menjamin akad jual beli sesuai ketentuan Islam.</p>
+        
+        
+              <!-- Grid -->
+        <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+            <!-- Card 5 -->
+            <div onclick="toggleDetail(this)" class="card-hover relative group bg-white border rounded-xl shadow-md p-6 transition hover:shadow-lg cursor-pointer overflow-hidden" data-aos="fade-up">
+                <img src="dokumen/TANPA-BANK-150x150.jpg" alt="Tanpa BI Checking" class="h-[120px] w-[120px] sm:h-[150px] sm:w-[150px] object-cover mb-4 rounded-full mx-auto z-10 relative">
+                <h3 class="text-lg sm:text-xl font-semibold text-center text-gray-900 z-10 relative">Tanpa BI Checking</h3>
+                <p class="text-center text-sm sm:text-base text-gray-500 z-10 relative">Klik untuk lihat penjelasan</p>
+        
+                <div class="hover-card absolute inset-0 bg-white/90 backdrop-blur-sm p-4 rounded-xl hidden group-hover:flex items-center justify-center text-center text-sm text-gray-700 z-20 transition-all duration-300">
+                    <p>Kami tidak menggunakan BI Checking. Semua profesi (formal atau informal) bisa memiliki rumah tanpa hambatan administratif.</p>
+                </div>
+                <div class="detail absolute inset-0 bg-white p-4 rounded-xl hidden opacity-0 max-h-0 z-30 overflow-auto transition-all duration-300">
+                    <p>Kami tidak menggunakan BI Checking. Semua profesi (formal atau informal) bisa memiliki rumah tanpa hambatan administratif.</p>
+                </div>
             </div>
-            <div class="detail absolute inset-0 bg-white p-4 rounded-xl hidden opacity-0 max-h-0 z-30 overflow-auto transition-all duration-300">
-            <p>Akad yang tidak sesuai syariah tidak sah dan batal. Kami menjamin akad jual beli sesuai ketentuan Islam.</p>
+        
+            <!-- Card 6 -->
+            <div onclick="toggleDetail(this)" class="card-hover relative group bg-white border rounded-xl shadow-md p-6 transition hover:shadow-lg cursor-pointer overflow-hidden" data-aos="fade-up">
+                <img src="dokumen/TANPA-ASURANSI-1-150x150.jpg" alt="Tanpa Asuransi" class="h-[120px] w-[120px] sm:h-[150px] sm:w-[150px] object-cover mb-4 rounded-full mx-auto z-10 relative">
+                <h3 class="text-lg sm:text-xl font-semibold text-center text-gray-900 z-10 relative">Tanpa Asuransi</h3>
+                <p class="text-center text-sm sm:text-base text-gray-500 z-10 relative">Klik untuk lihat penjelasan</p>
+        
+                <div class="hover-card absolute inset-0 bg-white/90 backdrop-blur-sm p-4 rounded-xl hidden group-hover:flex items-center justify-center text-center text-sm text-gray-700 z-20 transition-all duration-300">
+                    <p>Asuransi dalam Islam tergolong gharar (ketidakjelasan) dan maysir (judi). Kami tidak mengikutkan asuransi dalam akad jual beli.</p>
+                </div>
+                <div class="detail absolute inset-0 bg-white p-4 rounded-xl hidden opacity-0 max-h-0 z-30 overflow-auto transition-all duration-300">
+                    <p>Asuransi dalam Islam tergolong gharar (ketidakjelasan) dan maysir (judi). Kami tidak mengikutkan asuransi dalam akad jual beli.</p>
+                </div>
+            </div>
+        
+            <!-- Card 7 -->
+            <div onclick="toggleDetail(this)" class="card-hover relative group bg-white border rounded-xl shadow-md p-6 transition hover:shadow-lg cursor-pointer overflow-hidden" data-aos="fade-up">
+                <img src="dokumen/TANPA-GHOROR-150x150.jpg" alt="Tanpa Akad Bathil" class="h-[120px] w-[120px] sm:h-[150px] sm:w-[150px] object-cover mb-4 rounded-full mx-auto z-10 relative">
+                <h3 class="text-lg sm:text-xl font-semibold text-center text-gray-900 z-10 relative">Tanpa Akad Bathil</h3>
+                <p class="text-center text-sm sm:text-base text-gray-500 z-10 relative">Klik untuk lihat penjelasan</p>
+        
+                <div class="hover-card absolute inset-0 bg-white/90 backdrop-blur-sm p-4 rounded-xl hidden group-hover:flex items-center justify-center text-center text-sm text-gray-700 z-20 transition-all duration-300">
+                    <p>Akad yang tidak sesuai syariah tidak sah dan batal. Kami menjamin akad jual beli sesuai ketentuan Islam.</p>
+                </div>
+                <div class="detail absolute inset-0 bg-white p-4 rounded-xl hidden opacity-0 max-h-0 z-30 overflow-auto transition-all duration-300">
+                    <p>Akad yang tidak sesuai syariah tidak sah dan batal. Kami menjamin akad jual beli sesuai ketentuan Islam.</p>
+                </div>
             </div>
         </div>
-        </div>
-    </div>
 
     <script>
         // Toggle detail explanation on card click
